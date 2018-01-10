@@ -1,11 +1,19 @@
+img {
+	width: 295px;
+	height: 435px;
+}
+
 h1
 {
-  color: red
+  color:red;
+  margin-bottom: 3px;
 }
 
 h2
 {
-  color:blue;
+  color:white;
+  margin-top: 3px;
+  margin-bottom: 70px;
 }
 
 p
@@ -17,6 +25,14 @@ body
 {
   background-color: black;
 
+}
+
+button
+{
+  background-color:black;
+  color:red;
+  font-size:180%;
+  border: none;
 }
 
 #main
@@ -42,4 +58,19 @@ body
   display: flex;
   flex-direction: column;
   align-items:center
+}
+
+@media (max-width: 1024px)
+{
+  h1
+  {
+    color:blue;
+  }
+
+  button
+  {
+    background-color:silver;
+    color:blue;
+  }
+
 }
