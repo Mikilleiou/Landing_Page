@@ -6,12 +6,14 @@ img {
 h1
 {
   color:red;
+  font-family: impact;
   margin-bottom: 3px;
 }
 
 h2
 {
   color:white;
+  font-family: fantasy;
   margin-top: 3px;
   margin-bottom: 70px;
 }
@@ -31,8 +33,9 @@ button
 {
   background-color:black;
   color:red;
+  font-family: "Comic Sans MS";
   font-size:180%;
-  border: none;
+  border: 8px double red;
 }
 
 #main
@@ -44,7 +47,6 @@ button
 
 #corps
 {
-  background-color: silver;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -53,7 +55,6 @@ button
 
 .element
 {
-  background-color: white;
   color :blue;
   display: flex;
   flex-direction: column;
@@ -69,8 +70,9 @@ button
 
   button
   {
-    background-color:silver;
+    background-color:black;
     color:blue;
+    border: 4px double blue;
   }
 
 }
